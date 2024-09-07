@@ -34,7 +34,11 @@ export default function Footer() {
     <footer className='divide-y divide-[#CBD5E0] bg-white'>
       <div className="w-full max-w-[1440px] mx-auto grid grid-cols-12 gap-5 px-10 py-5 text-[#718096]">
         <div className="col-span-4 space-y-3">
-          <div className="text-xl font-bold text-sky-600">LOGO</div>
+          <Link
+            href='/'
+            className="text-xl font-bold text-sky-600">
+            <Image src='/assets/logo.png' width={100} height={100} alt='' className='w-14' />
+          </Link>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloremque distinctio illo sapiente eius expedita asperiores quae incidunt error sint</p>
         </div>
         <div className="col-span-2 space-y-3">

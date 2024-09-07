@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -31,7 +32,11 @@ const links = [
 export default function Header() {
   return (
     <div className='flex justify-between items-center gap-2 px-6 py-3 shadow-[0_4px_40px_0px_rgba(0,0,0,0.15)]'>
-      <div className="text-xl font-bold text-sky-600">LOGO</div>
+      <Link
+        href='/'
+        className="text-xl font-bold text-sky-600">
+        <Image src='/assets/logo.png' width={100} height={100} alt='' className='w-14' />
+      </Link>
       <nav className='flex'>
         {links.map((link) => (
           <Link key={link.label} href={link.href} className="text-sm font-medium text-[#4A5568] hover:text-gray-800 px-4">
