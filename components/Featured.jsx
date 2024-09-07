@@ -32,9 +32,9 @@ const featuredList = [
 
 export default function Featured() {
     return (
-        <div className='py-5 space-y-3'>
+        <div className='py-5 space-y-3 w-full max-w-[1440px] mx-auto'>
             <CommonTitle title='Featured' description='Resources' />
-            <div className="flex gap-4 py-3">
+            <div className="flex justify-center overflow-hidden gap-4 py-3">
                 {featuredList.map((item, index) => (
                     <FeaturedCard key={index} item={item} />
                 ))}
