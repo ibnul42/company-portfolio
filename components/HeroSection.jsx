@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HeroSection() {
     return (
-        <div className='w-full max-w-[1440px] mx-auto grid grid-cols-2 gap-4 py-10'>
+        <div className='w-full max-w-[1440px] mx-auto grid grid-cols-2 gap-4 py-10 px-3'>
             <div className="flex flex-col justify-center gap-4">
                 <p className='flex flex-wrap gap-2 font-light text-5xl'>
                     <span>Great
