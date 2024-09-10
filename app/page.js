@@ -1,3 +1,4 @@
+import Blogs from "@/components/Blogs";
 import CaseStudies from "@/components/CaseStudies";
 import Development from "@/components/Development";
 import Featured from "@/components/Featured";
@@ -16,7 +17,8 @@ export default function Home() {
       <Workflow />
       <Development />
       <Featured />
-      <Hiring />
+      {/* <Blogs /> */}
+      {/* <Hiring /> */}
     </div>
   );
 }
