@@ -29,7 +29,7 @@ const caseStudiesList = [
 
 export default function CaseStudies() {
     return (
-        <div className='py-10 bg-[#f7f7fa]'>
+        <div id='case-study' className='py-10 bg-[#f7f7fa]'>
             <div className="w-full max-w-[1440px] mx-auto px-3 space-y-10">
                 <CommonTitle title='Our recent' description='Case Studies' />
                 <div className="space-y-10">

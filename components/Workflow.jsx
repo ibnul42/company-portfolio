@@ -61,7 +61,7 @@ const approach = [
 
 export default function Workflow() {
     return (
-        <div className='bg-[#F7F7FA] py-10'>
+        <div id='workflow' className='bg-[#F7F7FA] py-10'>
             <div className="w-full max-w-[1440px] mx-auto px-6 space-y-10">
                 <CommonTitle title='Our design and' description='Development approach' />
                 <div className="grid grid-cols-2 gap-4">

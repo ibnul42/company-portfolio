@@ -4,29 +4,25 @@ import React from 'react'
 
 const links = [
   {
-    label: 'About',
-    href: '/',
-  },
-  {
     label: 'Services',
-    href: '/',
+    href: '#services',
   },
   {
     label: 'Case Studies',
-    href: '/',
-  },
-  {
-    label: 'Blog',
-    href: '/',
+    href: '#case-study',
   },
   {
     label: 'How it Works',
-    href: '/',
+    href: '#workflow',
   },
   {
-    label: 'Hire',
-    href: '/',
-  }
+    label: 'Development',
+    href: '#development',
+  },
+  {
+    label: 'Blogs',
+    href: '#blog',
+  },
 ]
 
 export default function Header() {

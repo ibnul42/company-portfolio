@@ -4,34 +4,30 @@ import React from 'react'
 
 const links = [
   {
-    label: 'About',
-    href: '/',
-  },
-  {
     label: 'Services',
-    href: '/',
+    href: '#services',
   },
   {
     label: 'Case Studies',
-    href: '/',
-  },
-  {
-    label: 'Blog',
-    href: '/',
+    href: '#case-study',
   },
   {
     label: 'How it Works',
-    href: '/',
+    href: '#workflow',
   },
   {
-    label: 'Hire',
-    href: '/',
-  }
+    label: 'Development',
+    href: '#development',
+  },
+  {
+    label: 'Blogs',
+    href: '#blog',
+  },
 ]
 
 export default function Footer() {
   return (
-    <footer className='divide-y divide-[#CBD5E0] bg-white'>
+    <footer id='footer' className='divide-y divide-[#CBD5E0] bg-white'>
       <div className="w-full max-w-[1440px] mx-auto grid grid-cols-12 gap-5 px-10 py-5 text-[#718096]">
         <div className="col-span-4 space-y-3">
           <Link

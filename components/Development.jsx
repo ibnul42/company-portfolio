@@ -36,7 +36,7 @@ const processes = [
 
 export default function Development() {
     return (
-        <div className='space-y-3 py-10 w-full max-w-[1440px] mx-auto overflow-hidden'>
+        <div id='development' className='space-y-3 py-10 w-full max-w-[1440px] mx-auto overflow-hidden'>
             <CommonTitle title='How development' description='Through Alcaline works' />
             <div className="grid grid-cols-3 gap-7 px-5 py-10">
                 {processes.map((item) => (
