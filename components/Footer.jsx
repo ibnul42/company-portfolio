@@ -35,7 +35,7 @@ export default function Footer() {
             className="text-xl font-bold text-sky-600">
             <Image src='/assets/logo.png' width={100} height={100} alt='' className='w-14' />
           </Link>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloremque distinctio illo sapiente eius expedita asperiores quae incidunt error sint</p>
+          <p>For more information about our services or to schedule a consultation, feel free to reach out!</p>
         </div>
         <div className="col-span-2 space-y-3">
           <p className='font-bold text-[#4A5568]'>Links</p>
@@ -48,8 +48,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="col-span-3 space-y-3">
-          <p className='font-bold text-[#4A5568]'>Contact us</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, pariatur.</p>
+          <p className='font-bold text-[#4A5568]'>Contact info</p>
+          <div className="space-y-2">
+            <p>Address: 1309 Coffeen Ave, STE 1200, Sheridan, WY 82801</p>
+            <p>Phone: (863) 240-0402</p>
+            <p>Email: santiagoleonhoffmann@gmail.com</p>
+          </div>
         </div>
         <div className="col-span-3 flex gap-4 items-center justify-center">
           <Link href='/' className='h-10 w-10 flex items-center justify-center rounded-full shadow-[0_4px_14px_0px_rgba(0,0,0,0.15)]'>

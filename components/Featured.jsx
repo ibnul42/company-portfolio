@@ -6,27 +6,17 @@ const featuredList = [
     {
         title: '',
         image: '/assets/featured1.png',
-        description: 'How to Build a Scalable Application up to 1 Million Users on AWS',
+        description: 'How to Build a Scalable Application for 1 Million Users on AWS',
     },
     {
         title: '',
         image: '/assets/featured2.png',
-        description: 'How to Build a Scalable Application up to 1 Million Users on AWS',
+        description: 'Scaling Mobile App Infrastructure for Global Users',
     },
     {
         title: '',
         image: '/assets/featured3.png',
-        description: 'How to Build a Scalable Application up to 1 Million Users on AWS',
-    },
-    {
-        title: '',
-        image: '/assets/featured4.png',
-        description: 'How to Build a Scalable Application up to 1 Million Users on AWS',
-    },
-    {
-        title: '',
-        image: '/assets/featured5.png',
-        description: 'How to Build a Scalable Application up to 1 Million Users on AWS',
+        description: 'Optimizing Web Application Performance for E-commerce',
     }
 ]
 

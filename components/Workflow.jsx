@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const approach = [
     {
-        title: `UX Driven Engineering`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        title: `UX-Driven Engineering`,
+        description: `We prioritize user experience at every stage of development. Our designers collaborate closely with developers to ensure a smooth transition from concept to code, delivering products that not only work well but also feel intuitive and enjoyable to use.`,
         source: '/assets/icons/ux.svg',
         bg: {
             from: '#29272E',
@@ -14,7 +14,7 @@ const approach = [
     },
     {
         title: `Developing Shared Understanding`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        description: `Clear communication is the cornerstone of our success. We ensure all stakeholders—clients, developers, and designers—are on the same page throughout the project lifecycle.`,
         source: '/assets/icons/dev.svg',
         bg: {
             from: '#68DBF2',
@@ -23,7 +23,7 @@ const approach = [
     },
     {
         title: `Proven Experience and Expertise`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        description: `With years of experience across diverse industries, our team brings a wealth of knowledge to every project. From startups to enterprise solutions, we tailor our approach to fit your specific needs.`,
         source: '/assets/icons/heart.svg',
         bg: {
             from: '#FF92AE',
@@ -32,7 +32,7 @@ const approach = [
     },
     {
         title: `Security & Intellectual Property (IP)`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        description: `Your data is safe with us. We follow industry best practices to ensure your project remains secure and your intellectual property is protected.`,
         source: '/assets/icons/shield.svg',
         bg: {
             from: '#67E9F1',
@@ -41,7 +41,7 @@ const approach = [
     },
     {
         title: `Code Reviews`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        description: `Regular code reviews are essential to our process, helping to identify potential issues early and ensuring high-quality software at every release.`,
         source: '/assets/icons/tick.svg',
         bg: {
             from: '#FFEF5E',
@@ -50,7 +50,7 @@ const approach = [
     },
     {
         title: `Quality Assurance & Testing`,
-        description: `Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.`,
+        description: `We run rigorous QA and testing protocols to make sure every product we deliver meets the highest standards in functionality, performance, and security.`,
         source: '/assets/icons/lock.svg',
         bg: {
             from: '#F76680',

@@ -5,39 +5,39 @@ const processes = [
     {
         id: 1,
         title: 'Assemble the right team',
-        description: `We handle all aspects of vetting and choosing the right team that you don't have the time, expertise, or desire to do.`,
+        description: `We take care of vetting and building your team, so you can focus on your vision while we handle the logistics.`,
     },
     {
         id: 2,
         title: 'Tech architecture',
-        description: `We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently`,
+        description: `Our experts design scalable, flexible architectures by breaking down monolithic apps into efficient microservices, allowing teams to work faster and independently.`,
     },
     {
         id: 3,
         title: 'Code reviews',
-        description: 'Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells',
+        description: 'Every project undergoes comprehensive code reviews to catch issues like performance bottlenecks or memory leaks before they become a problem.',
     },
     {
         id: 4,
         title: 'Sprint planning',
-        description: 'Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.',
+        description: 'Our agile sprint planning involves your team in a collaborative effort to ensure that each phase of the project meets your expectations.',
     },
     {
         id: 5,
         title: 'Standups & weekly demos',
-        description: `Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.`,
+        description: `Regular standups and demos keep everyone aligned and allow for ongoing feedback to improve the product.`,
     },
     {
         id: 6,
         title: 'Iterative delivery',
-        description: `We divide the implementation process into several checkpoints rather than a single deadline.`,
+        description: `We believe in continuous delivery, ensuring your project is broken into manageable milestones, allowing for better visibility and adjustments as needed.`,
     }
 ]
 
 export default function Development() {
     return (
         <div id='development' className='space-y-3 py-10 w-full max-w-[1440px] mx-auto overflow-hidden'>
-            <CommonTitle title='How development' description='Through Alcaline works' />
+            <CommonTitle title='How Bluesky' description='Information Works' />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-5 py-10">
                 {processes.map((item) => (
                     <div key={item.id} className="flex flex-col gap-4 p-6 mx-2 rounded-lg shadow-md border">
