@@ -34,7 +34,7 @@ export default function CaseStudies() {
                 <CommonTitle title='Our recent' description='Case Studies' />
                 <div className="space-y-10">
                     {caseStudiesList.map((item, index) => (
-                        <div key={index} className="grid grid-cols-2">
+                        <div key={index} className="grid grid-cols-1 md:grid-cols-2">
                             <div className="">
                                 <Image src={item.image} className='w-full h-auto' width={500} height={500} alt='' />
                             </div>

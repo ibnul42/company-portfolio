@@ -63,7 +63,7 @@ export default function Slider() {
                 </button>
             </div>
             <div
-                className="py-10 flex gap-4 overflow-x-hidden scrollbar-hide"
+                className="py-10 flex justify-center gap-4 overflow-x-hidden scrollbar-hide"
                 ref={sliderRef}
             >
                 {items.map((item, index) => (

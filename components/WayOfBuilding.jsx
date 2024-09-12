@@ -40,13 +40,13 @@ const items = [
 ]
 export default function WayOfBuilding() {
     return (
-        <div className='w-full max-w-[1440px] mx-auto py-10 space-y-10'>
+        <div className='w-full max-w-[1440px] mx-auto py-10 px-3 space-y-10'>
             <CommonTitle title='Way of building' description='Great Software' />
             <div className="space-y-10">
                 {items.map((item, index) => (
-                    <div key={index} className="grid grid-cols-2 gap-5">
-                        <div className={cn("py-5 px-10 flex flex-col justify-between", {
-                            "order-2": index % 2 === 1
+                    <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className={cn("py-5 px-5 lg:px-10 flex flex-col justify-between", {
+                            "md:order-2": index % 2 === 1
                         })}>
                             <p className='text-2xl font-semibold'>{item.title}</p>
                             <p className='text-[#2D3748]'>{item.description}</p>

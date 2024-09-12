@@ -64,7 +64,7 @@ export default function Workflow() {
         <div id='workflow' className='bg-[#F7F7FA] py-10'>
             <div className="w-full max-w-[1440px] mx-auto px-6 space-y-10">
                 <CommonTitle title='Our design and' description='Development approach' />
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {approach.map((item, index) => (
                         <div key={index} className="bg-[#FAFAFA] border border-[#E7DAED] py-6 px-4 flex gap-3">
                             <div className="flex-shrink-0 rounded-md w-10 h-10 flex justify-center items-center"

@@ -38,7 +38,7 @@ export default function Development() {
     return (
         <div id='development' className='space-y-3 py-10 w-full max-w-[1440px] mx-auto overflow-hidden'>
             <CommonTitle title='How development' description='Through Alcaline works' />
-            <div className="grid grid-cols-3 gap-7 px-5 py-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-5 py-10">
                 {processes.map((item) => (
                     <div key={item.id} className="flex flex-col gap-4 p-6 mx-2 rounded-lg shadow-md border">
                         <div className="flex gap-2">
